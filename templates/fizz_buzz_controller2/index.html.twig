@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FizzBuzzController2Controller!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { /*margin: 1em auto;*/overflow-y: auto; max-width: 900px; width: 100%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>{{ excercise_name }}! ✅</h1>
+    {{ form(form) }}
+    </br></br>
+    FizzBuzzValue: {{ fizz_buzz_response }}
+</div>
+{% endblock %}
